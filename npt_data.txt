@@ -1,0 +1,2164 @@
+molecule simulation tool ver 7.1.9
+
+system information -> 
+
+simulation type    = npt            
+number of molecule =             108
+temperature        =         300.000
+pressure           =         100.000
+previous step      =          100000
+main step          =          100000
+Rcut               =          12.000
+print step         =              10
+visual step        =               2
+ewald summation    =               F
+periodic           =               T
+cubic box          =               T
+neighbor list      =               F
+rvcut              =          14.000
+box change         =               T
+fix C.O.M          =               T
+fix mol 1          =               F
+fix atom 1         =               F
+ein lattice type   =      MOL       
+random torsion     =               F
+
+molecule information ->
+
+linear molucule    :     F
+potential type     : OPLSAA    
+molecule type      : FLEXIBLE  
+# of atom type     :     2
+      type      atom       eps       sig    charge      mass
+         1        C  33.212500  3.500000  0.360000 12.010000
+         2        F  26.670600  2.950000 -0.120000 18.998000
+number of atoms    :     8
+type of each atom
+    1    2
+    2    2
+    3    2
+    4    1
+    5    1
+    6    2
+    7    2
+    8    2
+# of bond in molecule     :     7
+bond pair
+    1    4
+    2    4
+    3    4
+    4    5
+    5    6
+    5    7
+    5    8
+index type
+     1 C  C 
+     2 C  F 
+bond parameter
+     1       134831.000000            1.529000
+     2       184638.000000            1.332000
+number of bond in molecule =     7
+[bond, type   1  2]    1    4, length =    1.332
+[bond, type   2  2]    2    4, length =    1.332
+[bond, type   3  2]    3    4, length =    1.332
+[bond, type   4  1]    4    5, length =    1.529
+[bond, type   5  2]    5    6, length =    1.332
+[bond, type   6  2]    5    7, length =    1.332
+[bond, type   7  2]    5    8, length =    1.332
+# of bend type     :     3
+type index
+     1 F  C  F 
+     2 C  C  F 
+     3 C  C  C 
+bend parameter
+     1        38747.900000          109.100000            1.904154
+     2        25161.000000          109.500000            1.911136
+     3        29362.900000          112.700000            1.966986
+number of beding in molecule =    12
+[bend, type   1  1]    1    4    2
+[bend, type   2  1]    1    4    3
+[bend, type   3  2]    1    4    5
+[bend, type   4  1]    2    4    3
+[bend, type   5  2]    2    4    5
+[bend, type   6  2]    3    4    5
+[bend, type   7  2]    4    5    6
+[bend, type   8  2]    4    5    7
+[bend, type   9  2]    4    5    8
+[bend, type  10  1]    6    5    7
+[bend, type  11  1]    6    5    8
+[bend, type  12  1]    7    5    8
+# of torsion type     :     3
+type index
+     1 F  C  C  F 
+     2 C  C  C  F 
+     3 C  C  C  C 
+torsion parameter
+     1        -1258.050000            0.000000          125.805000            0.000000
+     2          150.966000            0.000000          201.288000            0.000000
+     3         3332.320000          477.052000         -698.469000        -1065.820000
+[torsion, type   1  1]    1    4    5    6
+[torsion, type   2  1]    1    4    5    7
+[torsion, type   3  1]    1    4    5    8
+[torsion, type   4  1]    2    4    5    6
+[torsion, type   5  1]    2    4    5    7
+[torsion, type   6  1]    2    4    5    8
+[torsion, type   7  1]    3    4    5    6
+[torsion, type   8  1]    3    4    5    7
+[torsion, type   9  1]    3    4    5    8
+neighbor matrix = 
+ F T T T T F F F
+ T F T T T F F F
+ T T F T T F F F
+ T T T F T T T T
+ T T T T F T T T
+ F F F T T F T T
+ F F F T T T F T
+ F F F T T T T F
+scaling matrix = 
+ F F F F F T T T
+ F F F F F T T T
+ F F F F F T T T
+ F F F F F F F F
+ F F F F F F F F
+ T T T F F F F F
+ T T T F F F F F
+ T T T F F F F F
+adjacent indices list
+ index nAdjac indices
+     1      1       4
+     2      1       4
+     3      1       4
+     4      4       1  2  3  5
+     5      4       4  6  7  8
+     6      1       5
+     7      1       5
+     8      1       5
+molecular tree data = 
+    i pathindex
+[  1  1]  4  5  8  7  6  3  2
+[  2  1]  4  5  8  7  6  3  1
+[  3  1]  4  5  8  7  6  2  1
+[  4  1]  1
+[  4  2]  2
+[  4  3]  3
+[  4  4]  5  8  7  6
+[  5  1]  4  3  2  1
+[  5  2]  6
+[  5  3]  7
+[  5  4]  8
+[  6  1]  5  8  7  4  3  2  1
+[  7  1]  5  8  6  4  3  2  1
+[  8  1]  5  7  6  4  3  2  1
+bond
+   i  i1  i2
+   1   1   4
+   2   2   4
+   3   3   4
+   4   4   5
+   5   5   6
+   6   5   7
+   7   5   8
+bend
+
+   i  i1  i2  i3
+   1   1   4   2
+   1   2
+   1  -1
+   2   1   4   3
+   1   3
+   1  -1
+   3   1   4   5
+   1   4
+   1   1
+   4   2   4   3
+   2   3
+   1  -1
+   5   2   4   5
+   2   4
+   1   1
+   6   3   4   5
+   3   4
+   1   1
+   7   4   5   6
+   4   5
+   1   1
+   8   4   5   7
+   4   6
+   1   1
+   9   4   5   8
+   4   7
+   1   1
+  10   6   5   7
+   5   6
+  -1   1
+  11   6   5   8
+   5   7
+  -1   1
+  12   7   5   8
+   6   7
+  -1   1
+torsion
+
+   i  i1  i2  i3  i4
+
+   1   1   4   5   6
+   1   1   4   5
+   1   1   1   1
+
+   2   1   4   5   7
+   2   1   4   6
+   2   1   1   1
+
+   3   1   4   5   8
+   3   1   4   7
+   3   1   1   1
+
+   4   2   4   5   6
+   4   2   4   5
+   4   1   1   1
+
+   5   2   4   5   7
+   5   2   4   6
+   5   1   1   1
+
+   6   2   4   5   8
+   6   2   4   7
+   6   1   1   1
+
+   7   3   4   5   6
+   7   3   4   5
+   7   1   1   1
+
+   8   3   4   5   7
+   8   3   4   6
+   8   1   1   1
+
+   9   3   4   5   8
+   9   3   4   7
+   9   1   1   1
+
+   i  i1  i2  i3  i4
+
+   1   1   4   5   6
+   1   3   7
+   1   1   1
+
+   2   1   4   5   7
+   2   3   8
+   2   1   1
+
+   3   1   4   5   8
+   3   3   9
+   3   1   1
+
+   4   2   4   5   6
+   4   5   7
+   4   1   1
+
+   5   2   4   5   7
+   5   5   8
+   5   1   1
+
+   6   2   4   5   8
+   6   5   9
+   6   1   1
+
+   7   3   4   5   6
+   7   6   7
+   7   1   1
+
+   8   3   4   5   7
+   8   6   8
+   8   1   1
+
+   9   3   4   5   8
+   9   6   9
+   9   1   1
+number of group:     1
+group:   1, member:   1
+group:   1, member:   2
+group:   1, member:   3
+group:   1, member:   4
+group:   1, member:   5
+group:   1, member:   6
+group:   1, member:   7
+group:   1, member:   8
+mass of molecule   :    138.008
+
+properties = 
+  num       eps       sig      mass    charge     color
+
+    1    26.671     2.950    18.998    -0.120     9.000
+    2    26.671     2.950    18.998    -0.120     9.000
+    3    26.671     2.950    18.998    -0.120     9.000
+    4    33.212     3.500    12.010     0.360     6.000
+    5    33.212     3.500    12.010     0.360     6.000
+    6    26.671     2.950    18.998    -0.120     9.000
+    7    26.671     2.950    18.998    -0.120     9.000
+    8    26.671     2.950    18.998    -0.120     9.000
+
+  cate num   epsilon     sigma    charge    number
+
+         1   33.2125    3.5000    0.3600   12.0100
+         2   26.6706    2.9500   -0.1200   18.9980
+
+inertia tensor(g*A^2/mol) = 
+
+          275.922136            0.000240            0.000000
+
+            0.000240          275.922617           -0.000000
+
+            0.000000           -0.000000          178.624840
+
+
+----------------------------------------
+   rotateQ     bondQ     bendQ     torsQ
+----------------------------------------
+         T         T         T         T
+frame atom         1         2
+configuration information ->
+
+crystal type    = fcc       
+lattice vector  = 
+
+   28.0280    0.0000    0.0000
+
+    0.0000   28.0280    0.0000
+
+    0.0000    0.0000   28.0280
+
+maximum rcut    =         14.0140
+system volume   =      22017.9926
+system density  =          0.0049
+config read?    =          T
+coordinate type = ATOM      
+
+movement information ->
+
+dr max        =        0.016412
+drotation max =        1.173060
+dbox max      =        0.112638
+dbond max     =        0.062746
+dbend max     =        0.119573
+dtorsion max  =        0.444127
+
+neighbor list is initialized
+initial seed =  -56917
+ inter =     -9.094 intra =      8.546 LRC   =     -0.329
+step =         10   energy =             -8.96991 kJ/mol
+dens =        0.004871 1/A^3  ;       1.116201 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.017233  1.231713  0.112638  0.065883  0.125552  0.466333
+acceptance  0.575926  0.511111  0.800000  0.633333  0.572222  0.542593
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.2065   28.2065   28.2065   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0937   28.0937   28.0937   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =         20   energy =             -8.77141 kJ/mol
+dens =        0.004841 1/A^3  ;       1.109505 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.018999  1.228634  0.112638  0.072636  0.138421  0.514133
+acceptance  0.524074  0.490741  0.700000  0.561111  0.561111  0.546296
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.2023   28.2023   28.2023   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1500   28.1500   28.1500   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =         30   energy =             -8.64854 kJ/mol
+dens =        0.004829 1/A^3  ;       1.106672 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.018951  1.225562  0.112638  0.080082  0.152609  0.512847
+acceptance  0.520370  0.524074  0.666667  0.525926  0.525926  0.511111
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1655   28.1655   28.1655   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1741   28.1741   28.1741   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =         40   energy =             -8.67660 kJ/mol
+dens =        0.004839 1/A^3  ;       1.108980 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.018904  1.222498  0.112638  0.088290  0.152227  0.565414
+acceptance  0.503704  0.490741  0.650000  0.531481  0.531481  0.442593
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0352   28.0352   28.0352   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1545   28.1545   28.1545   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =         50   energy =             -8.69044 kJ/mol
+dens =        0.004869 1/A^3  ;       1.115898 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.018857  1.219442  0.112638  0.088069  0.167831  0.510286
+acceptance  0.474074  0.485185  0.720000  0.498148  0.455556  0.559259
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.8429   27.8429   27.8429   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0957   28.0957   28.0957   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =         60   energy =             -8.75393 kJ/mol
+dens =        0.004897 1/A^3  ;       1.122220 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.018810  1.100546  0.113764  0.087849  0.167411  0.509010
+acceptance  0.462963  0.475926  0.800000  0.509259  0.500000  0.481481
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.7795   27.7795   27.7795   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0424   28.0424   28.0424   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =         70   energy =             -8.78536 kJ/mol
+dens =        0.004902 1/A^3  ;       1.123429 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.016976  1.097795  0.113764  0.087629  0.159040  0.507738
+acceptance  0.531481  0.529630  0.900000  0.477778  0.481481  0.494444
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0307   28.0307   28.0307   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0325   28.0325   28.0325   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =         80   energy =             -8.79926 kJ/mol
+dens =        0.004908 1/A^3  ;       1.124781 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.016933  1.210319  0.113764  0.079086  0.158643  0.506469
+acceptance  0.531481  0.527778  0.933333  0.524074  0.483333  0.496296
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.9119   27.9119   27.9119   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0213   28.0213   28.0213   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =         90   energy =             -8.83332 kJ/mol
+dens =        0.004917 1/A^3  ;       1.126807 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.018669  1.270835  0.113764  0.087192  0.158246  0.505202
+acceptance  0.501852  0.518519  0.850000  0.477778  0.505556  0.562963
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.8413   27.8413   27.8413   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0045   28.0045   28.0045   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        100   energy =             -8.85176 kJ/mol
+dens =        0.004925 1/A^3  ;       1.128599 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.018622  1.267658  0.113764  0.078691  0.157851  0.503939
+acceptance  0.507407  0.505556  0.880000  0.514815  0.525926  0.524074
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.8521   27.8521   27.8521   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.9897   27.9897   27.9897   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        110   energy =             -8.86748 kJ/mol
+dens =        0.004934 1/A^3  ;       1.130788 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.020531  1.264489  0.114902  0.078494  0.157456  0.555593
+acceptance  0.448148  0.453704  0.800000  0.550000  0.490741  0.477778
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.7871   27.7871   27.7871   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.9716   27.9716   27.9716   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        120   energy =             -8.88075 kJ/mol
+dens =        0.004940 1/A^3  ;       1.132187 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.018529  1.141201  0.114902  0.086539  0.157062  0.554204
+acceptance  0.468519  0.433333  0.600000  0.492593  0.479630  0.500000
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.8446   27.8446   27.8446   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.9601   27.9601   27.9601   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        130   energy =             -8.90431 kJ/mol
+dens =        0.004944 1/A^3  ;       1.133114 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.018483  1.029934  0.114902  0.078102  0.141749  0.526494
+acceptance  0.481481  0.494444  0.666667  0.511111  0.487037  0.474074
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.8788   27.8788   27.8788   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.9525   27.9525   27.9525   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        140   energy =             -8.91726 kJ/mol
+dens =        0.004945 1/A^3  ;       1.133304 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.018437  1.027359  0.114902  0.086107  0.141394  0.525178
+acceptance  0.446296  0.512963  0.750000  0.461111  0.546296  0.531481
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.8851   27.8851   27.8851   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.9510   27.9510   27.9510   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        150   energy =             -8.92991 kJ/mol
+dens =        0.004945 1/A^3  ;       1.133290 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.016639  1.024791  0.114902  0.085892  0.155887  0.579008
+acceptance  0.492593  0.485185  0.720000  0.468519  0.546296  0.490741
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0330   28.0330   28.0330   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.9512   27.9512   27.9512   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        160   energy =             -8.91951 kJ/mol
+dens =        0.004940 1/A^3  ;       1.132041 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.016598  1.022229  0.116051  0.077518  0.155498  0.522555
+acceptance  0.479630  0.511111  1.000000  0.533333  0.487037  0.551852
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1227   28.1227   28.1227   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.9614   27.9614   27.9614   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        170   energy =             -8.91319 kJ/mol
+dens =        0.004935 1/A^3  ;       1.131057 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.016556  1.019673  0.116051  0.077324  0.140337  0.521249
+acceptance  0.535185  0.470370  0.700000  0.524074  0.518519  0.522222
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1775   28.1775   28.1775   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.9695   27.9695   27.9695   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        180   energy =             -8.90220 kJ/mol
+dens =        0.004931 1/A^3  ;       1.129916 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.018253  1.017124  0.116051  0.085249  0.154721  0.519946
+acceptance  0.479630  0.516667  0.733333  0.494444  0.509259  0.509259
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.2110   28.2110   28.2110   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.9789   27.9789   27.9789   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        190   energy =             -8.88631 kJ/mol
+dens =        0.004924 1/A^3  ;       1.128429 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.018207  1.121379  0.116051  0.085036  0.170580  0.518646
+acceptance  0.529630  0.548148  0.750000  0.498148  0.483333  0.468519
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1678   28.1678   28.1678   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.9912   27.9912   27.9912   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        200   energy =             -8.85727 kJ/mol
+dens =        0.004914 1/A^3  ;       1.126044 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.020074  1.236321  0.116051  0.084824  0.153948  0.517349
+acceptance  0.501852  0.540741  0.800000  0.505556  0.540741  0.522222
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.4872   28.4872   28.4872   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0107   28.0107   28.0107   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        210   energy =             -8.83396 kJ/mol
+dens =        0.004902 1/A^3  ;       1.123481 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.022131  1.363043  0.117212  0.084612  0.153564  0.570377
+acceptance  0.451852  0.474074  0.600000  0.537037  0.511111  0.522222
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.4279   28.4279   28.4279   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0317   28.0317   28.0317   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        220   energy =             -8.81632 kJ/mol
+dens =        0.004895 1/A^3  ;       1.121727 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.019973  1.294891  0.117212  0.084400  0.153180  0.568952
+acceptance  0.468519  0.509259  0.700000  0.496296  0.503704  0.483333
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.2958   28.2958   28.2958   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0462   28.0462   28.0462   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        230   energy =             -8.80387 kJ/mol
+dens =        0.004889 1/A^3  ;       1.120471 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.018026  1.291654  0.117212  0.084189  0.168881  0.513479
+acceptance  0.533333  0.533333  0.733333  0.516667  0.505556  0.531481
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.3338   28.3338   28.3338   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0566   28.0566   28.0566   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        240   energy =             -8.79291 kJ/mol
+dens =        0.004886 1/A^3  ;       1.119720 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.019874  1.424049  0.117212  0.092819  0.168458  0.566110
+acceptance  0.474074  0.487037  0.800000  0.470370  0.518519  0.498148
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.3010   28.3010   28.3010   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0629   28.0629   28.0629   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        250   energy =             -8.77339 kJ/mol
+dens =        0.004880 1/A^3  ;       1.118295 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.017936  1.285204  0.117212  0.092587  0.168037  0.564695
+acceptance  0.544444  0.498148  0.840000  0.435185  0.466667  0.485185
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.3323   28.3323   28.3323   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0748   28.0748   28.0748   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        260   energy =             -8.75778 kJ/mol
+dens =        0.004874 1/A^3  ;       1.117062 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.019774  1.159896  0.118384  0.083559  0.159635  0.509637
+acceptance  0.470370  0.520370  0.800000  0.518519  0.498148  0.514815
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.2898   28.2898   28.2898   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0851   28.0851   28.0851   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        270   energy =             -8.75027 kJ/mol
+dens =        0.004871 1/A^3  ;       1.116384 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.019725  1.278786  0.118384  0.083350  0.159236  0.535119
+acceptance  0.474074  0.512963  0.800000  0.475926  0.501852  0.494444
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1886   28.1886   28.1886   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0908   28.0908   28.0908   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        280   energy =             -8.75078 kJ/mol
+dens =        0.004869 1/A^3  ;       1.115897 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.017802  1.275589  0.118384  0.083142  0.175558  0.533781
+acceptance  0.474074  0.529630  0.800000  0.531481  0.479630  0.490741
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.3204   28.3204   28.3204   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0949   28.0949   28.0949   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        290   energy =             -8.74274 kJ/mol
+dens =        0.004867 1/A^3  ;       1.115374 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.017757  1.272400  0.118384  0.082934  0.158441  0.532447
+acceptance  0.520370  0.505556  0.800000  0.514815  0.500000  0.498148
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.2096   28.2096   28.2096   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0993   28.0993   28.0993   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        300   energy =             -8.73761 kJ/mol
+dens =        0.004865 1/A^3  ;       1.114927 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.018645  1.269219  0.118384  0.091435  0.166363  0.531116
+acceptance  0.487037  0.461111  0.800000  0.468519  0.475926  0.524074
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1093   28.1093   28.1093   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1031   28.1031   28.1031   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        310   energy =             -8.74081 kJ/mol
+dens =        0.004864 1/A^3  ;       1.114748 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.018599  1.266046  0.119568  0.082520  0.158045  0.585555
+acceptance  0.524074  0.535185  0.600000  0.522222  0.514815  0.474074
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.2037   28.2037   28.2037   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1047   28.1047   28.1047   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        320   energy =             -8.73516 kJ/mol
+dens =        0.004861 1/A^3  ;       1.114030 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.020505  1.395816  0.119568  0.082314  0.157650  0.528463
+acceptance  0.453704  0.503704  0.600000  0.487037  0.485185  0.516667
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.3139   28.3139   28.3139   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1107   28.1107   28.1107   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        330   energy =             -8.72854 kJ/mol
+dens =        0.004858 1/A^3  ;       1.113304 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.018506  1.392326  0.119568  0.082108  0.157256  0.582631
+acceptance  0.501852  0.496296  0.666667  0.511111  0.483333  0.485185
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.2648   28.2648   28.2648   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1168   28.1168   28.1168   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        340   energy =             -8.72553 kJ/mol
+dens =        0.004856 1/A^3  ;       1.112923 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.019431  1.388845  0.119568  0.081903  0.156863  0.525824
+acceptance  0.474074  0.488889  0.750000  0.520370  0.492593  0.518519
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.2701   28.2701   28.2701   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1200   28.1200   28.1200   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        350   energy =             -8.72044 kJ/mol
+dens =        0.004855 1/A^3  ;       1.112618 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.019382  1.253433  0.119568  0.081698  0.149020  0.579721
+acceptance  0.472222  0.461111  0.800000  0.520370  0.501852  0.492593
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1697   28.1697   28.1697   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1226   28.1226   28.1226   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        360   energy =             -8.71872 kJ/mol
+dens =        0.004854 1/A^3  ;       1.112340 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.019334  1.250299  0.120763  0.090072  0.148647  0.523199
+acceptance  0.466667  0.474074  1.000000  0.514815  0.516667  0.566667
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1527   28.1527   28.1527   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1250   28.1250   28.1250   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        370   energy =             -8.71890 kJ/mol
+dens =        0.004855 1/A^3  ;       1.112578 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.017449  1.128395  0.120763  0.089847  0.148275  0.521891
+acceptance  0.488889  0.488889  1.000000  0.496296  0.518519  0.505556
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1490   28.1490   28.1490   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1230   28.1230   28.1230   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        380   energy =             -8.71777 kJ/mol
+dens =        0.004854 1/A^3  ;       1.112462 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.017405  1.125574  0.120763  0.089622  0.163474  0.520586
+acceptance  0.503704  0.492593  1.000000  0.464815  0.462963  0.509259
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1963   28.1963   28.1963   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1240   28.1240   28.1240   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        390   energy =             -8.71380 kJ/mol
+dens =        0.004850 1/A^3  ;       1.111562 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.019189  1.122760  0.120763  0.089398  0.155300  0.519284
+acceptance  0.511111  0.535185  1.000000  0.442593  0.509259  0.538889
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.5634   28.5634   28.5634   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1316   28.1316   28.1316   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        400   energy =             -8.70762 kJ/mol
+dens =        0.004847 1/A^3  ;       1.110872 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.019141  1.237843  0.120763  0.089175  0.171218  0.572511
+acceptance  0.496296  0.514815  1.000000  0.475926  0.464815  0.527778
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.2383   28.2383   28.2383   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1374   28.1374   28.1374   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        410   energy =             -8.70669 kJ/mol
+dens =        0.004848 1/A^3  ;       1.110898 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.018184  1.364722  0.121971  0.088952  0.154524  0.571080
+acceptance  0.537037  0.481481  0.800000  0.474074  0.516667  0.464815
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0109   28.0109   28.0109   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1372   28.1372   28.1372   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        420   energy =             -8.71249 kJ/mol
+dens =        0.004851 1/A^3  ;       1.111618 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.018139  1.231662  0.121971  0.080279  0.154138  0.569652
+acceptance  0.488889  0.468519  0.700000  0.522222  0.507407  0.492593
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.9004   27.9004   27.9004   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1311   28.1311   28.1311   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        430   energy =             -8.71636 kJ/mol
+dens =        0.004852 1/A^3  ;       1.112020 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.018093  1.111575  0.121971  0.088508  0.153753  0.568228
+acceptance  0.518519  0.529630  0.733333  0.472222  0.503704  0.468519
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0160   28.0160   28.0160   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1277   28.1277   28.1277   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        440   energy =             -8.71780 kJ/mol
+dens =        0.004853 1/A^3  ;       1.112210 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.019948  1.225511  0.121971  0.088286  0.153368  0.566807
+acceptance  0.488889  0.475926  0.700000  0.488889  0.537037  0.511111
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0365   28.0365   28.0365   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1261   28.1261   28.1261   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        450   energy =             -8.72048 kJ/mol
+dens =        0.004855 1/A^3  ;       1.112615 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.019898  1.222447  0.121971  0.079678  0.152985  0.565390
+acceptance  0.464815  0.505556  0.760000  0.542593  0.474074  0.450000
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.9386   27.9386   27.9386   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1227   28.1227   28.1227   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        460   energy =             -8.72301 kJ/mol
+dens =        0.004857 1/A^3  ;       1.113005 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.017958  1.219391  0.123191  0.087845  0.152602  0.563977
+acceptance  0.470370  0.472222  0.400000  0.509259  0.553704  0.444444
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0330   28.0330   28.0330   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1194   28.1194   28.1194   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        470   energy =             -8.72121 kJ/mol
+dens =        0.004857 1/A^3  ;       1.113093 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.017913  1.216343  0.123191  0.087626  0.152221  0.508989
+acceptance  0.505556  0.501852  0.400000  0.501852  0.509259  0.529630
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1182   28.1182   28.1182   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1187   28.1187   28.1187   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        480   energy =             -8.71955 kJ/mol
+dens =        0.004858 1/A^3  ;       1.113287 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.019749  1.213302  0.123191  0.087407  0.159832  0.561161
+acceptance  0.483333  0.522222  0.600000  0.477778  0.438889  0.438889
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0549   28.0549   28.0549   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1171   28.1171   28.1171   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        490   energy =             -8.72205 kJ/mol
+dens =        0.004859 1/A^3  ;       1.113536 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.017824  1.210268  0.123191  0.078885  0.159432  0.506447
+acceptance  0.492593  0.477778  0.700000  0.564815  0.505556  0.505556
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0265   28.0265   28.0265   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1150   28.1150   28.1150   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        500   energy =             -8.72503 kJ/mol
+dens =        0.004861 1/A^3  ;       1.113885 g/cm^3
+----------------------------------------------------------------------
+               trans    rotate       box      bond      bend   torsion
+----------------------------------------------------------------------
+     ツmax  0.017779  1.092267  0.123191  0.086970  0.159034  0.558358
+acceptance  0.501852  0.462963  0.680000  0.514815  0.453704  0.479630
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.9740   27.9740   27.9740   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1121   28.1121   28.1121   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+ ! ------------ Combo stage start ---------------
+step =        510   energy =             -8.72796 kJ/mol
+dens =        0.004862 1/A^3  ;       1.114223 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.018668  1.037654  0.124422  0.091319  0.151082  0.530440
+acceptance  0.333333            0.800000  0.188889
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.9277   27.9277   27.9277   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1093   28.1093   28.1093   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        520   energy =             -8.72961 kJ/mol
+dens =        0.004863 1/A^3  ;       1.114442 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.018668  1.037654  0.124422  0.091319  0.151082  0.530440
+acceptance  0.323148            0.800000  0.194907
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0424   28.0424   28.0424   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1075   28.1075   28.1075   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        530   energy =             -8.72731 kJ/mol
+dens =        0.004861 1/A^3  ;       1.114041 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.018668  1.037654  0.124422  0.091319  0.151082  0.530440
+acceptance  0.340432            0.866667  0.192593
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.3849   28.3849   28.3849   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1108   28.1108   28.1108   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        540   energy =             -8.72503 kJ/mol
+dens =        0.004859 1/A^3  ;       1.113469 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.018668  1.037654  0.124422  0.091319  0.151082  0.530440
+acceptance  0.355324            0.900000  0.191898
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.2687   28.2687   28.2687   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1156   28.1156   28.1156   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        550   energy =             -8.72214 kJ/mol
+dens =        0.004858 1/A^3  ;       1.113224 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.018668  1.037654  0.124422  0.091319  0.151082  0.530440
+acceptance  0.360185            0.920000  0.190370
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.2046   28.2046   28.2046   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1177   28.1177   28.1177   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        560   energy =             -8.72032 kJ/mol
+dens =        0.004857 1/A^3  ;       1.113022 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.018481  1.027277  0.125667  0.090406  0.149571  0.525136
+acceptance  0.361111            0.800000  0.202778
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.2406   28.2406   28.2406   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1194   28.1194   28.1194   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        570   energy =             -8.71798 kJ/mol
+dens =        0.004855 1/A^3  ;       1.112558 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.018481  1.027277  0.125667  0.090406  0.149571  0.525136
+acceptance  0.387500            0.900000  0.199074
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.4086   28.4086   28.4086   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1233   28.1233   28.1233   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        580   energy =             -8.71534 kJ/mol
+dens =        0.004852 1/A^3  ;       1.111968 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.018481  1.027277  0.125667  0.090406  0.149571  0.525136
+acceptance  0.390741            0.800000  0.197222
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.4881   28.4881   28.4881   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1282   28.1282   28.1282   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        590   energy =             -8.71426 kJ/mol
+dens =        0.004851 1/A^3  ;       1.111723 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.018481  1.027277  0.125667  0.090406  0.149571  0.525136
+acceptance  0.386343            0.800000  0.197685
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1009   28.1009   28.1009   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1303   28.1303   28.1303   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        600   energy =             -8.71556 kJ/mol
+dens =        0.004852 1/A^3  ;       1.112007 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.018481  1.027277  0.125667  0.090406  0.149571  0.525136
+acceptance  0.382593            0.800000  0.200370
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.8671   27.8671   27.8671   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1279   28.1279   28.1279   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        610   energy =             -8.71795 kJ/mol
+dens =        0.004853 1/A^3  ;       1.112219 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.018297  1.017005  0.126923  0.089501  0.148076  0.519885
+acceptance  0.350000            0.800000  0.222222
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0421   28.0421   28.0421   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1262   28.1262   28.1262   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        620   energy =             -8.71727 kJ/mol
+dens =        0.004852 1/A^3  ;       1.111826 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.018297  1.017005  0.126923  0.089501  0.148076  0.519885
+acceptance  0.370833            0.900000  0.210648
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.4969   28.4969   28.4969   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1295   28.1295   28.1295   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        630   energy =             -8.71307 kJ/mol
+dens =        0.004849 1/A^3  ;       1.111194 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.018297  1.017005  0.126923  0.089501  0.148076  0.519885
+acceptance  0.380864            0.933333  0.203704
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.5140   28.5140   28.5140   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1347   28.1347   28.1347   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        640   energy =             -8.70910 kJ/mol
+dens =        0.004845 1/A^3  ;       1.110384 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.018297  1.017005  0.126923  0.089501  0.148076  0.519885
+acceptance  0.387731            0.900000  0.206481
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.6781   28.6781   28.6781   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1415   28.1415   28.1415   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        650   energy =             -8.70308 kJ/mol
+dens =        0.004842 1/A^3  ;       1.109582 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.018297  1.017005  0.126923  0.089501  0.148076  0.519885
+acceptance  0.395556            0.920000  0.206481
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.5616   28.5616   28.5616   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1482   28.1482   28.1482   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        660   energy =             -8.69774 kJ/mol
+dens =        0.004838 1/A^3  ;       1.108757 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.018114  1.006835  0.128193  0.088606  0.146595  0.514686
+acceptance  0.425000            1.000000  0.201852
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.5869   28.5869   28.5869   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1551   28.1551   28.1551   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        670   energy =             -8.69362 kJ/mol
+dens =        0.004835 1/A^3  ;       1.107998 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.018114  1.006835  0.128193  0.088606  0.146595  0.514686
+acceptance  0.405556            1.000000  0.206019
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.5150   28.5150   28.5150   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1614   28.1614   28.1614   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        680   energy =             -8.68871 kJ/mol
+dens =        0.004831 1/A^3  ;       1.107105 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.018114  1.006835  0.128193  0.088606  0.146595  0.514686
+acceptance  0.416975            0.933333  0.211420
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.6810   28.6810   28.6810   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1689   28.1689   28.1689   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        690   energy =             -8.68232 kJ/mol
+dens =        0.004827 1/A^3  ;       1.106193 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.018114  1.006835  0.128193  0.088606  0.146595  0.514686
+acceptance  0.423380            0.900000  0.208333
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.6299   28.6299   28.6299   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1765   28.1765   28.1765   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        700   energy =             -8.67818 kJ/mol
+dens =        0.004824 1/A^3  ;       1.105594 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.018114  1.006835  0.128193  0.088606  0.146595  0.514686
+acceptance  0.421111            0.920000  0.210370
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.4889   28.4889   28.4889   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1816   28.1816   28.1816   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        710   energy =             -8.67628 kJ/mol
+dens =        0.004823 1/A^3  ;       1.105330 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017933  0.996766  0.129474  0.087720  0.145129  0.509539
+acceptance  0.361111            0.800000  0.193519
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.3588   28.3588   28.3588   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1838   28.1838   28.1838   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        720   energy =             -8.67444 kJ/mol
+dens =        0.004822 1/A^3  ;       1.104939 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017933  0.996766  0.129474  0.087720  0.145129  0.509539
+acceptance  0.372685            0.600000  0.201852
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.4173   28.4173   28.4173   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1871   28.1871   28.1871   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        730   energy =             -8.67229 kJ/mol
+dens =        0.004820 1/A^3  ;       1.104590 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017933  0.996766  0.129474  0.087720  0.145129  0.509539
+acceptance  0.379321            0.666667  0.204630
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.4394   28.4394   28.4394   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1901   28.1901   28.1901   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        740   energy =             -8.67017 kJ/mol
+dens =        0.004819 1/A^3  ;       1.104324 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017933  0.996766  0.129474  0.087720  0.145129  0.509539
+acceptance  0.379861            0.700000  0.206481
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.2800   28.2800   28.2800   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1924   28.1924   28.1924   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        750   energy =             -8.67007 kJ/mol
+dens =        0.004819 1/A^3  ;       1.104433 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017933  0.996766  0.129474  0.087720  0.145129  0.509539
+acceptance  0.373519            0.680000  0.210926
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.0614   28.0614   28.0614   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1915   28.1915   28.1915   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        760   energy =             -8.66986 kJ/mol
+dens =        0.004820 1/A^3  ;       1.104539 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017753  0.986799  0.130769  0.086843  0.143678  0.504444
+acceptance  0.393519            0.600000  0.200000
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1941   28.1941   28.1941   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1906   28.1906   28.1906   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        770   energy =             -8.66941 kJ/mol
+dens =        0.004820 1/A^3  ;       1.104583 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017753  0.986799  0.130769  0.086843  0.143678  0.504444
+acceptance  0.407870            0.700000  0.201852
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1120   28.1120   28.1120   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1902   28.1902   28.1902   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        780   energy =             -8.66962 kJ/mol
+dens =        0.004820 1/A^3  ;       1.104630 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017753  0.986799  0.130769  0.086843  0.143678  0.504444
+acceptance  0.408642            0.733333  0.208951
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1877   28.1877   28.1877   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1899   28.1899   28.1899   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        790   energy =             -8.66858 kJ/mol
+dens =        0.004819 1/A^3  ;       1.104424 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017753  0.986799  0.130769  0.086843  0.143678  0.504444
+acceptance  0.412500            0.700000  0.211111
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.4452   28.4452   28.4452   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1916   28.1916   28.1916   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        800   energy =             -8.66615 kJ/mol
+dens =        0.004818 1/A^3  ;       1.104204 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017753  0.986799  0.130769  0.086843  0.143678  0.504444
+acceptance  0.409444            0.760000  0.206296
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.2329   28.2329   28.2329   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1935   28.1935   28.1935   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        810   energy =             -8.66504 kJ/mol
+dens =        0.004819 1/A^3  ;       1.104300 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017576  0.976931  0.132077  0.085975  0.142241  0.499399
+acceptance  0.382407            0.800000  0.214815
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1560   28.1560   28.1560   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1927   28.1927   28.1927   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        820   energy =             -8.66485 kJ/mol
+dens =        0.004818 1/A^3  ;       1.104227 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017576  0.976931  0.132077  0.085975  0.142241  0.499399
+acceptance  0.376389            0.900000  0.222685
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.3161   28.3161   28.3161   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1934   28.1934   28.1934   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        830   energy =             -8.66501 kJ/mol
+dens =        0.004818 1/A^3  ;       1.104233 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017576  0.976931  0.132077  0.085975  0.142241  0.499399
+acceptance  0.379012            0.933333  0.213580
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1219   28.1219   28.1219   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1933   28.1933   28.1933   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        840   energy =             -8.66687 kJ/mol
+dens =        0.004820 1/A^3  ;       1.104567 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017576  0.976931  0.132077  0.085975  0.142241  0.499399
+acceptance  0.386111            0.950000  0.213657
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.8106   27.8106   27.8106   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1905   28.1905   28.1905   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        850   energy =             -8.66917 kJ/mol
+dens =        0.004822 1/A^3  ;       1.105043 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017576  0.976931  0.132077  0.085975  0.142241  0.499399
+acceptance  0.386296            0.960000  0.212778
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.7989   27.7989   27.7989   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1864   28.1864   28.1864   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        860   energy =             -8.67219 kJ/mol
+dens =        0.004825 1/A^3  ;       1.105627 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017400  0.967161  0.133398  0.085115  0.140818  0.494405
+acceptance  0.354630            1.000000  0.205556
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.8835   27.8835   27.8835   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1814   28.1814   28.1814   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        870   energy =             -8.67417 kJ/mol
+dens =        0.004826 1/A^3  ;       1.106032 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017400  0.967161  0.133398  0.085115  0.140818  0.494405
+acceptance  0.374537            1.000000  0.202315
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.8806   27.8806   27.8806   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1779   28.1779   28.1779   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        880   energy =             -8.67377 kJ/mol
+dens =        0.004828 1/A^3  ;       1.106436 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017400  0.967161  0.133398  0.085115  0.140818  0.494405
+acceptance  0.381173            0.933333  0.210494
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.7999   27.7999   27.7999   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1745   28.1745   28.1745   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        890   energy =             -8.67467 kJ/mol
+dens =        0.004830 1/A^3  ;       1.106954 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017400  0.967161  0.133398  0.085115  0.140818  0.494405
+acceptance  0.397222            0.900000  0.207407
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.8959   27.8959   27.8959   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1700   28.1700   28.1700   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        900   energy =             -8.67502 kJ/mol
+dens =        0.004832 1/A^3  ;       1.107346 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017400  0.967161  0.133398  0.085115  0.140818  0.494405
+acceptance  0.402778            0.880000  0.207222
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.8927   27.8927   27.8927   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1667   28.1667   28.1667   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        910   energy =             -8.67538 kJ/mol
+dens =        0.004834 1/A^3  ;       1.107728 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017226  0.957490  0.134732  0.084264  0.139410  0.489461
+acceptance  0.426852            1.000000  0.218519
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.9138   27.9138   27.9138   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1634   28.1634   28.1634   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        920   energy =             -8.67538 kJ/mol
+dens =        0.004835 1/A^3  ;       1.108135 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017226  0.957490  0.134732  0.084264  0.139410  0.489461
+acceptance  0.412037            1.000000  0.218056
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.7342   27.7342   27.7342   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1600   28.1600   28.1600   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        930   energy =             -8.67723 kJ/mol
+dens =        0.004838 1/A^3  ;       1.108692 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017226  0.957490  0.134732  0.084264  0.139410  0.489461
+acceptance  0.406481            0.933333  0.211420
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.6846   27.6846   27.6846   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1552   28.1552   28.1552   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        940   energy =             -8.68069 kJ/mol
+dens =        0.004841 1/A^3  ;       1.109474 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017226  0.957490  0.134732  0.084264  0.139410  0.489461
+acceptance  0.406713            0.950000  0.213657
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.4498   27.4498   27.4498   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1484   28.1484   28.1484   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        950   energy =             -8.68533 kJ/mol
+dens =        0.004845 1/A^3  ;       1.110380 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017226  0.957490  0.134732  0.084264  0.139410  0.489461
+acceptance  0.400926            0.960000  0.213889
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   27.4577   27.4577   27.4577   90.0000   90.0000   90.0000
+
+average lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31
+   28.1406   28.1406   28.1406   90.0000   90.0000   90.0000
+
+remaining time :     0hour    0min    0sec
+step =        960   energy =             -8.69058 kJ/mol
+dens =        0.004849 1/A^3  ;       1.111217 g/cm^3
+----------------------------------------------------------------------
+               inter                 box     intra                    
+----------------------------------------------------------------------
+     ツmax  0.017054  0.947915  0.136079  0.083421  0.138016  0.484566
+acceptance  0.365741            0.200000  0.224074
+
+current lattice
+
+     norm1     norm2     norm3     ang12     ang23     ang31

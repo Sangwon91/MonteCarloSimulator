@@ -1,0 +1,21 @@
+npt    ! simul type
+108    ! num of molecule
+300    ! temper
+100    ! press
+100000     ! pre cycle
+100000    ! averaging cycle
+12    ! cutoff distance
+10    ! data print frequency
+2    ! view print frequency
+F    ! Ewald summation
+T    ! periodic boundary condition
+T    ! cubic box
+F    ! neighbor list
+14    ! neighbor cutoff distance
+T    ! changing box
+T    ! fix COM
+F    ! fix molecule
+F    ! fix atom
+MOL    ! Einstein lattice type
+F    ! random torsional move
+END

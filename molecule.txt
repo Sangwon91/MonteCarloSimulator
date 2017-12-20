@@ -1,0 +1,68 @@
+F        ! T : linear, F : non-linear
+ 
+OPLSAA   
+FLEXIBLE
+MOL
+
+2        ! num of atom type ! type information (index, atomnum, eps, sig, charge, mass)		
+1	6	33.2125	3.50	 0.36	12.01    
+2	9	26.6706	2.95	-0.12	18.998
+	
+8           ! num of atoms in molecule
+1	2   2	2	2 ! F atom information (atom index, type index) 
+2	2   2	2	2 ! F
+3	2   2	2	2 ! F
+4	1   1	1	1 ! C
+5	1   1	1	1 ! C 
+6	2   2	2	2 ! F
+7	2   2	2	2 ! F
+8	2   2	2	2 ! F
+
+7           ! num of bonds in molecule
+1	4   ! bond information (atom1 index, atom2 index) in connection.
+2	4
+3	4
+4	5
+5	6
+5	7
+5	8
+
+2               ! num of bond type in molecule 
+1	1 1     ! C-C 
+2	1 2     ! C-F
+
+1	134831.		1.529
+2	184638.		1.332
+
+3               ! num of bending type in molecule 
+1	2 1 2   ! F-C-F
+2	1 1 2   ! C-C-F
+3       1 1 1   ! C-C-C
+
+1	38747.9		109.10		! bending parameters, (force const, equil angle)
+2	25161.0		109.50
+3	29362.9		112.70
+
+3               ! num of torsion type in molecule
+1	2 1 1 2 ! F-C-C-F
+2	1 1 1 2 ! C-C-C-F
+3       1 1 1 1 ! C-C-C-C
+
+1	-1258.05	0.0	 125.805	0.0       ! torsion parameters
+2	150.966		0.0	201.288		0.0	
+3	3332.32		477.052		-698.469	-1065.82
+
+1            -1.25182             0.00065            -1.22996   ! molecule coordinate
+2             0.62535            -1.08443            -1.22996
+3             0.62647             1.08378            -1.22996
+4             0.00000             0.00000            -0.77005
+5             0.00000             0.00000             0.76958
+6            -0.62647            -1.08378             1.22949
+7             1.25182            -0.00065             1.22949
+8            -0.62535             1.08443             1.22949
+
+1	2
+
+! SMILE : FC(C(F)(F)F)(F)F
+ 
+end

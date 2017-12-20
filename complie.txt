@@ -1,0 +1,1 @@
+gfortran -o Main -ffast-math -O3 -std=f2008 -fimplicit-none -ffixed-form -ffree-form -Wall Main.f90 
