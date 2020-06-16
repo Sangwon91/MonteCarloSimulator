@@ -12,6 +12,7 @@ Molecular Monte Carlo simulator for the free energy calculations of fluid and so
 
 # Installation
 ```bash
+$ cd src
 $ make
 ```
 
