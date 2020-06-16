@@ -6,3 +6,6 @@
 Ein*.txt
 *_config.txt
 *_data.txt
+*.log
+movement.txt
+*.view
