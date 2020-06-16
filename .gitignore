@@ -3,3 +3,6 @@
 *.view
 *.def
 *.log
+Ein*.txt
+*_config.txt
+*_data.txt
